@@ -1,0 +1,8 @@
+---
+#This is main tasks file for nginx role
+
+- include: install.yaml
+- include: configure.yml
+- include: service.yaml
+- include: configure_ssl.yml
+  when: nginx_ssl

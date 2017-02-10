@@ -1,0 +1,10 @@
+# Inventory for ansible
+[db]
+192.168.168.10 ansible_ssh_user=vagrant
+192.168.168.11 ansible_ssh_user=vagrant
+
+[www]
+192.168.168.12 ansible_ssh_user=vagrant
+
+[lb]
+192.168.168.13 ansible_ssh_user=vagrant

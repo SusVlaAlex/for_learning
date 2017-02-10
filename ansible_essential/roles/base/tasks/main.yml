@@ -1,0 +1,9 @@
+---
+# essential tasks. should run on all nodes
+- name: creating devops group
+  group: name=devops state=present
+- name: create devops user
+  user: name=devops comment='DevOps User' uid=2001 group=devops
+- name: install htop package
+  package: name=htop state=present
+  
