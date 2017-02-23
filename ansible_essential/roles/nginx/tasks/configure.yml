@@ -6,7 +6,9 @@
     - restart nginx service
 
 - name: create home page for default site
-  copy: src=index.html dest=/usr/share/nginx/html/index.html
+  template: 
+    src: index.html.j2
+    dest: /usr/share/nginx/html/index.html
 
 - name: create php virtual hosts
   template:

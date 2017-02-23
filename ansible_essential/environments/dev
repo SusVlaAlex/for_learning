@@ -8,3 +8,8 @@
 
 [lb]
 192.168.168.13 ansible_ssh_user=vagrant
+
+[dev:children]
+db
+www
+lb
