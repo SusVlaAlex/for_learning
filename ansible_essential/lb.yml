@@ -3,4 +3,4 @@
   remote_user: vagrant
   become: yes
   roles:
-    - { role: haproxy, when: ansible_os_family == 'Debian' }
+    - { role: haproxy, when: ansible_os_family == 'Debian', tags: 'haproxy' }

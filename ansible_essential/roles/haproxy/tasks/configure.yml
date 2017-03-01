@@ -6,6 +6,8 @@
     mode: 0644
   notify:
     - restart haproxy service
+  tags:
+    - configure
 
 - name: enable haproxy
   template:
@@ -14,3 +16,5 @@
     mode: 0644
   notify:
     - restart haproxy service 
+  tags:
+    - configure

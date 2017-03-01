@@ -2,4 +2,5 @@
   service: 
     name: "{{ haproxy['service'] }}"
     state: started
-    
+  tags:
+    - start
