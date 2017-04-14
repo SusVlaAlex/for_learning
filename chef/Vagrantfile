@@ -1,0 +1,12 @@
+# -*- mode: ruby -*-
+#vi: set ft=ruby :
+Vagrant.configure("2") do |config|
+
+  config.vm.define "chef-server" do |chef|
+    chef.vm.box = "bento/ubuntu-14.04"
+    chef.vm.hostname = "chef-server"
+    chef.vm.network "private_network", ip: "192.168.168.10"
+  end
+
+end
+
