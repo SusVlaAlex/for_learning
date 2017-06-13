@@ -1,0 +1,27 @@
+I, [2017-04-21T15:46:51.807250 #14733]  INFO -- default-centos:731611: -----> Creating <default-centos:731611>...
+E, [2017-04-21T15:46:51.807529 #14733] ERROR -- default-centos:731611: Create failed on instance <default-centos:731611>.
+E, [2017-04-21T15:46:51.807628 #14733] ERROR -- default-centos:731611: ------Exception-------
+E, [2017-04-21T15:46:51.807649 #14733] ERROR -- default-centos:731611: Class: NoMethodError
+E, [2017-04-21T15:46:51.807668 #14733] ERROR -- default-centos:731611: Message: undefined method `split' for nil:NilClass
+E, [2017-04-21T15:46:51.807685 #14733] ERROR -- default-centos:731611: ----------------------
+E, [2017-04-21T15:46:51.807701 #14733] ERROR -- default-centos:731611: ------Backtrace-------
+E, [2017-04-21T15:46:51.807725 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:326:in `parse_image_name'
+E, [2017-04-21T15:46:51.807742 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:340:in `repo'
+E, [2017-04-21T15:46:51.807758 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:303:in `pull_platform_image'
+E, [2017-04-21T15:46:51.807774 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:60:in `create'
+E, [2017-04-21T15:46:51.807789 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `public_send'
+E, [2017-04-21T15:46:51.807804 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `block in perform_action'
+E, [2017-04-21T15:46:51.807824 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-04-21T15:46:51.807840 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-04-21T15:46:51.807855 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-04-21T15:46:51.807870 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-04-21T15:46:51.807886 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `perform_action'
+E, [2017-04-21T15:46:51.807901 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:370:in `create_action'
+E, [2017-04-21T15:46:51.807916 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-04-21T15:46:51.807931 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-04-21T15:46:51.807947 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-04-21T15:46:51.807965 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:124:in `create'
+E, [2017-04-21T15:46:51.807980 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-04-21T15:46:51.807995 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-04-21T15:46:51.808010 #14733] ERROR -- default-centos:731611: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-04-21T15:46:51.808032 #14733] ERROR -- default-centos:731611: ----End Backtrace-----

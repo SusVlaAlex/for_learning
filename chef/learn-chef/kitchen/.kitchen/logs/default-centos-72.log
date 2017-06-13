@@ -1,0 +1,27 @@
+I, [2017-04-20T18:55:23.338859 #6230]  INFO -- default-centos-72: -----> Creating <default-centos-72>...
+E, [2017-04-20T18:55:23.339007 #6230] ERROR -- default-centos-72: Create failed on instance <default-centos-72>.
+E, [2017-04-20T18:55:23.339062 #6230] ERROR -- default-centos-72: ------Exception-------
+E, [2017-04-20T18:55:23.339078 #6230] ERROR -- default-centos-72: Class: NoMethodError
+E, [2017-04-20T18:55:23.339088 #6230] ERROR -- default-centos-72: Message: undefined method `split' for nil:NilClass
+E, [2017-04-20T18:55:23.339100 #6230] ERROR -- default-centos-72: ----------------------
+E, [2017-04-20T18:55:23.339110 #6230] ERROR -- default-centos-72: ------Backtrace-------
+E, [2017-04-20T18:55:23.339118 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:326:in `parse_image_name'
+E, [2017-04-20T18:55:23.339126 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:340:in `repo'
+E, [2017-04-20T18:55:23.339135 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:303:in `pull_platform_image'
+E, [2017-04-20T18:55:23.339144 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:60:in `create'
+E, [2017-04-20T18:55:23.339161 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `public_send'
+E, [2017-04-20T18:55:23.339169 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `block in perform_action'
+E, [2017-04-20T18:55:23.339177 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-04-20T18:55:23.339185 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-04-20T18:55:23.339196 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-04-20T18:55:23.339205 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-04-20T18:55:23.339213 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `perform_action'
+E, [2017-04-20T18:55:23.339221 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:370:in `create_action'
+E, [2017-04-20T18:55:23.339229 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-04-20T18:55:23.339270 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-04-20T18:55:23.339279 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-04-20T18:55:23.339287 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:124:in `create'
+E, [2017-04-20T18:55:23.339295 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-04-20T18:55:23.339303 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-04-20T18:55:23.339314 #6230] ERROR -- default-centos-72: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-04-20T18:55:23.339323 #6230] ERROR -- default-centos-72: ----End Backtrace-----

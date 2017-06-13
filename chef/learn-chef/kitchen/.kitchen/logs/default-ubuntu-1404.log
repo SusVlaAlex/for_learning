@@ -1,0 +1,27 @@
+I, [2017-04-20T18:55:23.337652 #6230]  INFO -- default-ubuntu-1404: -----> Creating <default-ubuntu-1404>...
+E, [2017-04-20T18:55:23.337869 #6230] ERROR -- default-ubuntu-1404: Create failed on instance <default-ubuntu-1404>.
+E, [2017-04-20T18:55:23.337984 #6230] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2017-04-20T18:55:23.338024 #6230] ERROR -- default-ubuntu-1404: Class: NoMethodError
+E, [2017-04-20T18:55:23.338045 #6230] ERROR -- default-ubuntu-1404: Message: undefined method `split' for nil:NilClass
+E, [2017-04-20T18:55:23.338055 #6230] ERROR -- default-ubuntu-1404: ----------------------
+E, [2017-04-20T18:55:23.338063 #6230] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2017-04-20T18:55:23.338071 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:326:in `parse_image_name'
+E, [2017-04-20T18:55:23.338079 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:340:in `repo'
+E, [2017-04-20T18:55:23.338088 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:303:in `pull_platform_image'
+E, [2017-04-20T18:55:23.338096 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/kitchen-dokken-2.1.2/lib/kitchen/driver/dokken.rb:60:in `create'
+E, [2017-04-20T18:55:23.338104 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `public_send'
+E, [2017-04-20T18:55:23.338112 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `block in perform_action'
+E, [2017-04-20T18:55:23.338123 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-04-20T18:55:23.338132 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-04-20T18:55:23.338149 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-04-20T18:55:23.338158 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-04-20T18:55:23.338166 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:460:in `perform_action'
+E, [2017-04-20T18:55:23.338174 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:370:in `create_action'
+E, [2017-04-20T18:55:23.338183 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-04-20T18:55:23.338191 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-04-20T18:55:23.338199 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-04-20T18:55:23.338208 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:124:in `create'
+E, [2017-04-20T18:55:23.338219 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-04-20T18:55:23.338228 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-04-20T18:55:23.338236 #6230] ERROR -- default-ubuntu-1404: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-04-20T18:55:23.338250 #6230] ERROR -- default-ubuntu-1404: ----End Backtrace-----
